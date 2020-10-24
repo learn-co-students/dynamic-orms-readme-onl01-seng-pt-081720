@@ -41,6 +41,7 @@ class Song
     self.class.table_name
   end
 
+
   def values_for_insert
     values = []
     self.class.column_names.each do |col_name|
@@ -59,6 +60,3 @@ class Song
   end
 
 end
-
-
-
